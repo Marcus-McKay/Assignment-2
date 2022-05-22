@@ -1,4 +1,11 @@
 
+/**
+ * @author Marcus
+ * @param n
+ * @return term of the Fibonacci sequence
+ * 
+ * The purpose of this method is to return the n-th fibonacci sequence number 
+ */
 import java.util.*;
 public class Main
 {
