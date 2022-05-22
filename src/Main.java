@@ -4,7 +4,7 @@
  * @param n
  * @return term of the Fibonacci sequence
  * 
- * The purpose of this method is to return the n-th fibonacci sequence number
+ * The purpose of this method is to return the n-th fibonacci sequence number 
  */
 import java.util.*;
 public class Main
@@ -16,7 +16,7 @@ public class Main
     if (n <= 1)
        return n;
     //recursively call the function fibonacci()
-    return fibonacci(n-1) - fibonacci(n-2);
+    return fibonacci(n-1) + fibonacci(n-2);
     }
     //main() method 
     public static void main (String args[])
